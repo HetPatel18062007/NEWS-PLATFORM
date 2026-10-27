@@ -1,0 +1,27 @@
+{
+  "name": "apiblitz-financial-dashboard",
+  "version": "1.0.0",
+  "description": "Financial Aggregation Dashboard with Finnhub, GNews, QuickChart, and Discord Webhook integration",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "keywords": [
+    "finnhub",
+    "gnews",
+    "quickchart",
+    "discord-webhook",
+    "financial-dashboard",
+    "stocks"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-cache": "^5.1.2"
+  }
+}
